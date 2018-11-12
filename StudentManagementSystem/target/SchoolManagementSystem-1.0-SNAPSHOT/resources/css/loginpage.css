@@ -1,0 +1,123 @@
+
+div#head{
+    padding: 5px;
+    height: 40px;
+}
+
+.body{
+max-width: 100%;
+padding: 30px;
+height: 500px;
+}
+
+div#foot{
+    padding: 5px;
+    height: 40px;
+}
+* {box-sizing: border-box}
+
+
+/* Set height of body and the document to 100% */
+body, html {
+    margin: 0;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #e3f1f8;
+    color: #353535;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+}
+.tabs{
+    width:100%;
+}
+
+.tablink:hover {
+    background-color: #9da3a4;
+}
+
+::placeholder{
+color: #262626;
+font-weight: bold;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    animation: fadeEffect 0.3s;
+    max-height: 390px;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font-weight: bold;
+
+}
+
+input:focus {
+  background-color:#ffffcc; 
+  border-width:3px;
+  outline:none;
+ }
+
+input[type=submit] {
+    width: 100%;
+    background-color: #f24236;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #c42633;
+}
+.button{
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+#Admin {background-color: #d3d4d9;}
+#Parents {background-color: #d3d4d9;}
+
+.login-wrap{
+    width:100%;
+    margin:auto;
+    max-width:525px;
+    max-height:450px;
+    position:relative;
+   box-shadow:0 12px 15px 0 rgba(188,173,173,1),0 17px 50px 0 rgba(188,173,173,1);
+   }
+    .icon-class {
+        float: right;
+        margin-right: 15px;
+        margin-top: -37px;
+        position: relative;
+        z-index: 2;
+        color: #a42b32;
+    }
+label{
+    color: #f3ffbd;
+    font-weight: bold;
+}
